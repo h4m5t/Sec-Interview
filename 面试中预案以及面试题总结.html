@@ -1,0 +1,1780 @@
+﻿<html>
+ <head> 
+  <title>面试中预案以及面试题总结</title> 
+  <basefont face="Nirmala UI" size="2" /> 
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" /> 
+  <meta name="exporter-version" content="Evernote Windows/308919 (zh-CN, DDL); Windows/10.0.0 (Win64);" /> 
+  <style>
+    body, td {
+      font-family: Nirmala UI;
+      font-size: 9pt;
+    }
+  </style> 
+ </head> 
+ <body> 
+  <a name="15242"> <h1>面试中预案以及面试题总结</h1> </a>
+  <div>
+   <a> <span>
+     <div>
+      <div>
+       <div>
+        <div>
+         <div>
+          目录:
+         </div>
+         <ul>
+          <li>
+           <div>
+            个人介绍
+           </div></li>
+          <li>
+           <div>
+            面试问题
+           </div></li>
+          <li>
+           <div>
+            各大公司必问的问题
+           </div></li>
+          <li>
+           <div>
+            自己要问的问题
+           </div></li>
+          <li>
+           <div>
+            感谢名单
+           </div></li>
+          <li>
+           <div>
+            简历模板
+           </div></li>
+          <li>
+           <div>
+            总结以及招聘
+           </div></li>
+          <li>
+           <div>
+            笔者微信
+           </div></li>
+          <li>
+           <div>
+            参考文章
+           </div></li>
+         </ul>
+         <div>
+          <br />
+         </div>
+         <div>
+          <br />
+         </div>
+         <div>
+          <br />
+         </div>
+         <div>
+          <br />
+         </div>
+         <div>
+          &nbsp;个人介绍:
+         </div>
+         <ul>
+          <ul>
+           <li>
+            <div>
+             <span style="font-size: 9pt; font-family: SimSun;">自我介绍要点：不要用长逻辑句，短小精悍 控制在3-4分钟</span>
+            </div></li>
+           <li>
+            <div style="margin-left: 40px;">
+             <span style="font-size: 9pt; font-family: SimSun;">1、自我介绍&nbsp;&nbsp;&nbsp;姓名&nbsp;&nbsp;年龄&nbsp;&nbsp;哪里人&nbsp;&nbsp;学校情况&nbsp;&nbsp;不是重点，作为顺滑开场</span>
+            </div></li>
+           <li>
+            <div style="margin-left: 40px;">
+             <span style="font-size: 9pt; font-family: SimSun;">2、经历与技能&nbsp;&nbsp;啥时候开始学web攻防，实习经历（神舟，做了什么；尚然，做了什么），让人家清楚历史引入技术主题，挑重点</span>
+            </div></li>
+           <li>
+            <div style="margin-left: 40px;">
+             <span style="font-size: 9pt; font-family: SimSun;">3、业绩/成绩： 研究类：freebuff SRC I春秋 博客 版主，自运营安全微信公众号，年度风云榜</span>
+            </div></li>
+           <li>
+            <div style="margin-left: 40px;">
+             <span style="font-size: 9pt; font-family: SimSun;">技术类：0day&nbsp;&nbsp;漏洞 比赛名次啊等</span>
+            </div></li>
+           <li>
+            <div style="margin-left: 40px;">
+             <span style="font-size: 9pt; font-family: SimSun;">突出重点与精华展现实力</span>
+            </div></li>
+           <li>
+            <div style="margin-left: 40px;">
+             <span style="font-size: 9pt; font-family: SimSun;">结束，谢谢</span>
+            </div></li>
+           <li>
+            <div style="margin-left: 40px;">
+             <span style="font-size: 9pt; font-family: SimSun;">接下来靠自己</span>
+            </div></li>
+          </ul>
+         </ul>
+         <div style="margin-left: 40px;">
+          <br />
+         </div>
+         <div style="margin-left: 80px;">
+          <br />
+         </div>
+         <div>
+          <br />
+         </div>
+         <div>
+          <br />
+         </div>
+         <div>
+          面试问题
+         </div>
+         <div>
+          <br />
+         </div>
+         <div>
+          <br />
+         </div>
+         <ul>
+          <li>
+           <div>
+            <span style="font-size: 9pt;">csp是什么？如何绕过csp?</span>
+           </div></li>
+          <ul>
+           <li>
+            <div>
+             介绍:
+            </div></li>
+           <ul>
+            <li>
+             <div>
+              Content Security Policy （CSP）内容安全策略，是一个附加的安全层，有助于检测并缓解某些类型的攻击，包括跨站脚本（XSS）和数据注入攻击。
+             </div></li>
+            <li>
+             <div>
+              &nbsp;&nbsp; &nbsp;CSP的特点就是他是在浏览器层面做的防护，是和同源策略同一级别，除非浏览器本身出现漏洞，否则不可能从机制上绕过。
+             </div></li>
+            <li>
+             <div>
+              &nbsp;&nbsp; &nbsp;
+              <span style="background-color: rgb(255, 250, 165);-evernote-highlight:true;">CSP只允许被认可的JS块、JS文件、CSS等解析，只允许向指定的域发起请求。</span>
+             </div></li>
+           </ul>
+           <li>
+            <div>
+             <span style="font-size: 9pt;">绕过方法</span>
+            </div></li>
+           <ul>
+            <li>
+             <div>
+              <span style="font-size: 9pt;">location.href+cookie</span>
+             </div></li>
+            <li>
+             <div>
+              <span style="font-size: 9pt;">子提交</span>
+             </div></li>
+            <ul>
+             <li>
+              <div>
+               <span style="font-size: 9pt;">js动态创建一个a标签，a标签里附带cookie</span>
+              </div></li>
+            </ul>
+            <li>
+             <div>
+              <span style="font-size: 9pt;">iframr绕过csp+ dns通道传送cookie</span>
+             </div></li>
+            <ul>
+             <li>
+              <div>
+               <span style="font-size: 9pt;">#原理是什么?</span>
+              </div></li>
+             <li>
+              <div>
+               <span style="font-size: 9pt;">当一个</span>
+               <span style="background-color: rgb(255, 250, 165);font-size: 9pt;-evernote-highlight:true;">同源</span>
+               <span style="font-size: 9pt;">站点，同时存在两个页面，其中一个有CSP保护的A页面，另一个没有CSP保护B页面，那么如果B页面存在XSS漏洞，我们可以直接在B页面新建iframe用javascript直接操作A页面的dom，可以说A页面的CSP防护完全失效</span>
+              </div></li>
+            </ul>
+           </ul>
+          </ul>
+          <li>
+           <div>
+            <span style="font-size: 9pt;">黄金票据和白金票据的区别</span>
+           </div></li>
+          <li>
+           <div>
+            <span style="font-size: 9pt;">mysql root 权限有哪些提权方式</span>
+           </div></li>
+          <ul>
+           <li>
+            <div>
+             <span style="font-size: 9pt;">看系统，分别说</span>
+            </div></li>
+           <li>
+            <div>
+             <span style="font-size: 9pt;">window</span>
+            </div></li>
+           <ul>
+            <li>
+             <div>
+              <span style="font-size: 9pt;">MOF</span>
+             </div></li>
+            <li>
+             <div>
+              <span style="font-size: 9pt;">UDF</span>
+             </div></li>
+           </ul>
+           <li>
+            <div>
+             <span style="font-size: 9pt;">Linux</span>
+            </div></li>
+           <ul>
+            <li>
+             <div>
+              <span style="font-size: 9pt;">&nbsp;CVE-2016-6663</span>
+             </div></li>
+            <li>
+             <div style="text-align: left;">
+              <span style="font-size: 9pt;">CVE-2016-6664&nbsp; #Mysql&lt;5.5.51或&lt;5.6.32或&lt;5.7.14</span>
+             </div></li>
+            <li>
+             <div style="text-align: left;">
+              <span style="font-size: 9pt;">mysql 5.0 以上Linux 下提权，通过system 系统函数</span>
+             </div></li>
+           </ul>
+           <li>
+            <div style="text-align: left;">
+             <span style="font-size: 9pt;">常规写webshell</span>
+            </div></li>
+           <ul>
+            <li>
+             <div style="text-align: left;">
+              <span style="font-size: 9pt;">dump file</span>
+             </div></li>
+            <li>
+             <div style="text-align: left;">
+              <span style="font-size: 9pt;">outfile</span>
+             </div></li>
+            <li>
+             <div style="text-align: left;">
+              <span style="font-size: 9pt;">日志写shell</span>
+             </div></li>
+            <li>
+             <div style="text-align: left;">
+              <span style="font-size: 9pt;">....</span>
+             </div></li>
+           </ul>
+          </ul>
+          <li>
+           <div style="text-align: left;">
+            <span style="font-size: 9pt;">内网提权</span>
+           </div></li>
+          <ul>
+           <li>
+            <div style="text-align: left;">
+             <span style="font-size: 9pt;">window</span>
+            </div></li>
+           <ul>
+            <li>
+             <div style="text-align: left;">
+              <span style="font-size: 9pt;">导出hash</span>
+             </div></li>
+            <li>
+             <div style="text-align: left;">
+              <span style="font-size: 9pt;">导出各种存储凭证</span>
+             </div></li>
+            <li>
+             <div style="text-align: left;">
+              <span style="font-size: 9pt;">window-exploit-suggester&nbsp; &nbsp;systeminfor 进行对比</span>
+             </div></li>
+            <ul>
+             <li>
+              <div style="text-align: left;">
+               <span style="font-size: 9pt;">ms11080</span>
+              </div></li>
+             <li>
+              <div style="text-align: left;">
+               <span style="font-size: 9pt;">pr提权&nbsp; &nbsp;补丁号为 KB952004</span>
+              </div></li>
+             <li>
+              <div style="text-align: left;">
+               <span style="font-size: 9pt;">巴西烤肉提权</span>
+              </div></li>
+             <li>
+              <div style="text-align: left;">
+               ...(这个不太擅长)
+              </div></li>
+            </ul>
+            <li>
+             <div style="text-align: left;">
+              <span style="font-size: 9pt;">某特特定的软件，带有系统功能的软件，我们加个dll 注入器</span>
+             </div></li>
+            <ul>
+             <li>
+              <div style="text-align: left;">
+               <span style="font-size: 9pt;">reference: ATT&amp;CK手册</span>
+              </div></li>
+            </ul>
+            <li>
+             <div style="text-align: left;">
+              <font style="font-size: 9pt;"><br /></font>
+             </div></li>
+           </ul>
+           <li>
+            <div style="text-align: left;">
+             <span style="font-size: 9pt;">linux</span>
+            </div></li>
+           <ul>
+            <li>
+             <div style="text-align: left;">
+              ...
+             </div></li>
+           </ul>
+           <li>
+            <div style="text-align: left;">
+             <span style="font-size: 9pt;">web容器</span>
+            </div></li>
+           <ul>
+            <li>
+             <div style="text-align: left;">
+              <span style="font-size: 9pt;">iis6提权</span>
+             </div></li>
+            <li>
+             <div style="text-align: left;">
+              <font style="font-size: 9pt;"><br /></font>
+             </div></li>
+           </ul>
+          </ul>
+          <li>
+           <div>
+            <span style="font-size: 9pt;">正常注入点sa权限，可以os-shell但是全部是基于断网机，你怎么办?</span>
+           </div></li>
+          <ul>
+           <li>
+            <div>
+             <span style="font-size: 9pt;">system权限</span>
+            </div></li>
+           <ul>
+            <li>
+             <div>
+              <span style="font-size: 9pt;">正常注入后台书籍，进入后台拿webshell, 通过上传exe文件来配合os-shell 执行系统命令来下载web服务器的文件到数据库服务器文件执行</span>
+             </div></li>
+            <li>
+             <div>
+              <span style="font-size: 9pt;">能够执行全部系统命令，可以在Web前台上传点，上传文件到web服务器，通过,arp -a,netstat -ano找到web服务器的ip地址，下载web服务器的文件执行抓取系统密码等操作</span>
+             </div></li>
+            <li>
+             <div>
+              <span style="font-size: 9pt;">利用网上的批量出网命令，利用前面拿到的系统的账号密码,psexec,vmi, net use, creakexec等工具进行批量横向出网探测，能够出网的机器转发出来</span>
+             </div></li>
+            <li>
+             <div>
+              <span style="font-size: 9pt;">可以把exe 转base64编码，通过某种方式带进去，然后用window自带的转码工具恢复</span>
+             </div></li>
+           </ul>
+          </ul>
+          <li>
+           <div>
+            <span style="background-color: rgb(255, 250, 165);-evernote-highlight:true;"><span style="background-color: rgb(255, 250, 165);-evernote-highlight:true;"><span style="background-color: rgb(255, 250, 165);font-size: 9pt;-evernote-highlight:true;">vmi,ssrf是什么？ssrf支持哪些协议</span></span></span>
+           </div></li>
+          <ul>
+           <li>
+            <div>
+             <span style="font-size: 9pt;">ssrf支持哪些协议</span>
+            </div></li>
+           <ul>
+            <li>
+             <div>
+              file://
+             </div></li>
+            <li>
+             <div>
+              Dict://
+             </div></li>
+            <li>
+             <div>
+              SFTP://
+             </div></li>
+            <li>
+             <div>
+              TFTP://
+             </div></li>
+            <li>
+             <div>
+              LDAP://
+             </div></li>
+            <li>
+             <div>
+              Gopher://
+             </div></li>
+           </ul>
+           <li>
+            <div>
+             ....
+            </div></li>
+          </ul>
+          <li>
+           <div>
+            <span style="font-size: 9pt;">鱼叉，水坑攻击的案例</span>
+           </div></li>
+          <ul>
+           <li>
+            <div>
+             <span style="font-size: 9pt;">鱼叉攻击把</span>
+            </div></li>
+           <ul>
+            <li>
+             <div>
+              <span style="font-size: 9pt;">对某些网络犯罪人员定向钓鱼， 利用winrar目录穿越+免杀技巧渗透</span>
+             </div></li>
+            <li>
+             <div>
+              <span style="font-size: 9pt;">通过webshell + flash/证书更新/浏览器需更新/网站崩溃需要修复 等，诱导其下载exe&nbsp;</span>
+             </div></li>
+            <li>
+             <div>
+              <span style="font-size: 9pt;">x网上批量投毒....</span>
+             </div></li>
+           </ul>
+          </ul>
+          <li>
+           <div>
+            <span style="background-color: rgb(255, 250, 165);-evernote-highlight:true;"><span style="background-color: rgb(255, 250, 165);-evernote-highlight:true;"><span style="background-color: rgb(255, 250, 165);font-size: 9pt;-evernote-highlight:true;">同源策略和跨域</span></span></span>
+           </div></li>
+          <ul>
+           <li>
+            <div>
+             <span style="font-size: 9pt;">不同域名，端口，协议，无法通信</span>
+            </div></li>
+           <li>
+            <div>
+             <span style="font-size: 9pt;">跨域:CORS&nbsp;</span>
+            </div></li>
+           <ul>
+            <li>
+             <div>
+              <span style="font-size: 9pt;">access-control-allow-original</span>
+             </div></li>
+            <li>
+             <div>
+              <span style="font-size: 9pt;">跨域加载资源&nbsp; img,script,link&nbsp;&nbsp;</span>
+             </div></li>
+           </ul>
+           <li>
+            <div>
+             <span style="font-size: 9pt;">jsonp</span>
+            </div></li>
+           <li>
+            <div>
+             <span style="font-size: 9pt;">window.domain</span>
+            </div></li>
+           <li>
+            <div>
+             <span style="font-size: 9pt;">window.message</span>
+            </div></li>
+          </ul>
+          <li>
+           <div>
+            <span style="font-size: 9pt;">sql盲注时候有什么办法优化</span>
+           </div></li>
+          <ul>
+           <li>
+            <div>
+             <span style="font-size: 9pt;">二分查找</span>
+            </div></li>
+           <li>
+            <div>
+             <span style="font-size: 9pt;">DNslog</span>
+            </div></li>
+          </ul>
+          <li>
+           <div>
+            <span style="font-size: 9pt;">拿到一台内网的PC机，应该做什么?</span>
+           </div></li>
+          <ul>
+           <li>
+            <div>
+             <span style="font-size: 9pt; font-family: Calibri;">本机信息搜集</span>
+            </div></li>
+           <ul>
+            <li>
+             <div>
+              <span style="font-size: 9pt; font-family: Calibri;">本地hash</span>
+             </div></li>
+            <li>
+             <div>
+              <span style="font-size: 9pt; font-family: Calibri;">网页历史存储的密码</span>
+             </div></li>
+            <li>
+             <div>
+              <span style="font-size: 9pt; font-family: Calibri;">rdp连接记录</span>
+             </div></li>
+            <li>
+             <div>
+              <span style="font-size: 9pt; font-family: Calibri;">winscp,ssh,putty,xshell,等连接过的痕迹</span>
+             </div></li>
+            <li>
+             <div>
+              <span style="font-size: 9pt; font-family: Calibri;">mysql,mssql等，快速查找带有 user,pass等字段的值</span>
+             </div></li>
+            <li>
+             <div>
+              <span style="font-size: 9pt; font-family: Calibri;">利用一切现有的工具，把敏感信息搜集起来，做横向渗透用</span>
+             </div></li>
+            <li>
+             <div>
+              <span style="font-size: 9pt;">做个简单免杀权限维持</span>
+             </div></li>
+            <ul>
+             <li>
+              <div>
+               <span style="font-size: 9pt;">白名单的</span>
+              </div></li>
+             <ul>
+              <li>
+               <div>
+                <span style="font-size: 9pt;">MSbuild.exe</span>
+               </div></li>
+              <li>
+               <div>
+                <span style="font-size: 9pt;">installutil.exe</span>
+               </div></li>
+              <li>
+               <div>
+                <span style="font-size: 9pt;">mshta.exe</span>
+               </div></li>
+              <li>
+               <div>
+                <span style="font-size: 9pt;">vmic.exe</span>
+               </div></li>
+              <li>
+               <div>
+                <span style="font-size: 9pt;">bitsadmin.exe</span>
+               </div></li>
+             </ul>
+             <li>
+              <div>
+               <span style="font-size: 9pt;">命令行的免杀teamview</span>
+              </div></li>
+            </ul>
+           </ul>
+           <li>
+            <div>
+             <span style="font-size: 9pt; font-family: Calibri;">B/C段信息搜集</span>
+            </div></li>
+           <ul>
+            <li>
+             <div>
+              <span style="font-size: 9pt; font-family: Calibri;">看看本地拿下的账号密码和其他段内的是否相似</span>
+             </div></li>
+            <li>
+             <div>
+              <font style="font-size: 9pt;"><span style="font-size: 9pt; font-family: Calibri;">ms17-010 ， phpstudy的后门， 已知的web中间件的快速getshell(iis写，nginx配置不当导致getshell，), cve漏洞,使用,SMBexecc,&nbsp;</span><span style="font-size: 9pt; font-family: Calibri;">psexec，net use 这些工具，使用相同的密码对C段或者B段探测</span></font>
+             </div></li>
+            <li>
+             <div>
+              <span style="font-size: 9pt; font-family: Calibri;">段内的web服务，网关等</span>
+             </div></li>
+            <li>
+             <div>
+              <font style="font-size: 9pt;"><span style="font-size: 9pt; font-family: Calibri;">或者拿下某台特定的服务， net share&nbsp; 或者是ftp</span><span style="font-size: 9pt; font-family: Calibri;">(文件服务器/共享服务器,wiki，对面的软件做捆绑，或者是chm手册上.....)</span></font>
+             </div></li>
+            <li>
+             <div>
+              <span style="font-size: 9pt; font-family: Calibri;">搜集特定段内的邮箱，批量的信息搜集或者是用鱼叉式钓鱼附件/鱼叉式连链接</span>
+             </div></li>
+            <li>
+             <div>
+              <span style="font-size: 9pt; font-family: Calibri;">最先尝试web爆破，最后尝试爆破ssh,rdp,ftp,mysql,mssql等</span>
+             </div></li>
+           </ul>
+           <li>
+            <div>
+             域渗透
+            </div></li>
+           <ul>
+            <li>
+             <div>
+              .....
+             </div></li>
+           </ul>
+          </ul>
+          <li>
+           <div>
+            <span style="font-family: Calibri;">SQL注入，id=1如何检测？orderby怎么利用？limit语句怎么利用？盲注有什么？</span>
+           </div></li>
+          <ul>
+           <li>
+            <div>
+             <span style="font-size: 9pt;">SELECT * FROM users WHERE id &gt;0 ORDER BY id LIMIT 1,1 procedure analyse(extractvalue(rand(),concat(0x3a,version())),1);</span>
+            </div></li>
+          </ul>
+          <li>
+           <div>
+            <span style="font-size: 9pt;">sqlmap os shell原理</span>
+           </div></li>
+          <ul>
+           <li>
+            <div>
+             <span style="font-size: 9pt;">就是通过 outfile 上传一个简单的上传一个 cmd命令 shell</span>
+            </div></li>
+           <ul>
+            <li>
+             <div>
+              <span style="font-size: 9pt;">权限:</span>
+             </div></li>
+            <ul>
+             <li>
+              <div>
+               <span style="font-size: 9pt;">file权限</span>
+              </div></li>
+             <li>
+              <div>
+               <span style="font-size: 9pt;">绝对路径</span>
+              </div></li>
+             <li>
+              <div>
+               <span style="font-size: 9pt;">php gpc 为off</span>
+              </div></li>
+            </ul>
+           </ul>
+          </ul>
+          <li>
+           <div>
+            <span style="font-size: 9pt;">为什么同源策略无法防御csrf？</span>
+           </div></li>
+          <ul>
+           <li>
+            <div>
+             <span style="font-size: 9pt;">为什么同源策略无法防御csrf？ 同源策略不能阻止一个域向另一个域发送请求，它能阻止处理请求返回的数据，csrf在请求发送的瞬间就完成攻击了。</span>
+            </div></li>
+           <li>
+            <div>
+             <span style="font-size: 9pt;">同源策略是限制了不同源的读，但不限制不同源的写</span>
+            </div></li>
+          </ul>
+          <li>
+           <div>
+            <span style="font-size: 9pt;">cors和jsonp比较？</span>
+           </div></li>
+          <ul>
+           <li>
+            <div>
+             <span style="font-size: 9pt;">JSONP只支持GET请求，CORS支持所有类型的HTTP请求； JSONP兼容性好，支持老式浏览器；</span>
+            </div></li>
+          </ul>
+          <li>
+           <div>
+            <span style="font-size: 9pt;">B站与A站不同源的情况下如何通过B站获取到A站用户信息</span>
+           </div></li>
+          <ul>
+           <li>
+            <div>
+             <span style="font-size: 9pt;">csrf+xss</span>
+            </div></li>
+           <li>
+            <div>
+             <span style="font-size: 9pt;">jsonp</span>
+            </div></li>
+          </ul>
+          <li>
+           <div>
+            <span style="font-size: 9pt;">ARP攻击原理，防御方法</span>
+           </div></li>
+          <ul>
+           <li>
+            <div>
+             <span style="font-size: 9pt;">假冒ARP reply包（单波或广播），向单台主机或多台主机发送虚假的IP/MAC地址</span>
+            </div></li>
+           <li>
+            <div>
+             <span style="font-size: 9pt;">防御方法:</span>
+            </div></li>
+           <ul>
+            <li>
+             <div>
+              <span style="font-size: 9pt;">瑞星防火墙</span>
+             </div></li>
+            <li>
+             <div>
+              <span style="font-size: 9pt;">ip和mac地址绑定</span>
+             </div></li>
+           </ul>
+          </ul>
+          <li>
+           <div>
+            <span style="font-size: 9pt;">php的站限制了任何php文件上传，如何上传php文件？</span>
+           </div></li>
+          <ul>
+           <li>
+            <div>
+             <span style="font-size: 9pt;">先判断是win还是linux，再进一步上传分析，是基于白名单校验还是黑名单校验,是否是waf进行了限制</span>
+            </div></li>
+           <ul>
+            <li>
+             <div>
+              <span style="font-size: 9pt;">php3,php3,php5,phtml</span>
+             </div></li>
+            <li>
+             <div>
+              <span style="font-size: 9pt;">如果是前台，可以尝试上传html，或者在上传的地方fuzz，看看有没有注入，如果前台上传html成功，盗取页面cookie，到后台再试试，如果注入成功，拿到账户密码再去后台试试</span>
+             </div></li>
+            <li>
+             <div>
+              <span style="font-size: 9pt;">.htaccess</span>
+             </div></li>
+            <li>
+             <div>
+              <span style="font-size: 9pt;">.user.ini</span>
+             </div></li>
+            <li>
+             <div>
+              <span style="font-size: 9pt;">配合中间件的信息进行做fuzz</span>
+             </div></li>
+            <ul>
+             <li>
+              <div>
+               <span style="font-size: 9pt;">nginx</span>
+              </div></li>
+             <li>
+              <div>
+               <span style="font-size: 9pt;">apache</span>
+              </div></li>
+            </ul>
+           </ul>
+          </ul>
+          <li>
+           <div>
+            <span style="font-size: 9pt;">sqlmap udp提权原理?</span>
+           </div></li>
+          <ul>
+           <li>
+            <div>
+             ....
+            </div></li>
+          </ul>
+          <li>
+           <div>
+            你是如何做应急响应的呢?查询webshell,如何被黑，如何提取解决方案，如何溯源入侵的黑客呢？如何取证呢?&nbsp;&nbsp;
+           </div></li>
+          <ul>
+           <li>
+            <div>
+             <span style="font-size: 9pt; font-family: SimSun;-en-paragraph:true;">网页挂木马</span>
+            </div></li>
+           <ul>
+            <li>
+             <div>
+              <span style="font-size: 9pt; font-family: SimSun;-en-paragraph:true;">如果木马上写上了</span>
+              <span style="font-size: 9pt; font-family: Calibri;-en-paragraph:true;">hack by</span> 
+              <span style="font-size: 9pt; font-family: SimSun;-en-paragraph:true;">谁谁谁，那你就要考虑是不是哪些小黑客干的了，一般他们的能力就只能黑</span>
+              <span style="font-size: 9pt; font-family: Calibri;-en-paragraph:true;">gov,</span>
+              <span style="font-size: 9pt; font-family: SimSun;-en-paragraph:true;">学校的，如果是商业的网址，你就要考虑是不是 为了转移你目标视线的狡猾黑客了.还有，如果引流某个特定的bc,黄色，约炮这种，根据这些黑网站的信息进行检索，看看全球网站都是通过这样被黑的，因此思考，是不是同一套系统的0day,或者这些端口特定的漏洞</span>
+             </div></li>
+           </ul>
+           <li>
+            <div>
+             <span style="font-family: SimSun;">分析是怎么入侵的？</span>
+            </div></li>
+           <ul>
+            <li>
+             <div>
+              <span style="font-family: SimSun;">window</span>
+             </div></li>
+            <ul>
+             <li>
+              <div>
+               <span style="font-family: SimSun;">服务器有没有用cdn,是否有弱口令，开放了哪些端口，尝试测试有哪些可以是未授权访问</span>
+              </div></li>
+             <li>
+              <div>
+               <span style="font-size: 9pt; font-family: SimSun;-en-paragraph:true;">打开</span>
+               <span style="font-size: 9pt; font-family: Calibri;-en-paragraph:true;">D</span>
+               <span style="font-size: 9pt; font-family: SimSun;-en-paragraph:true;">盾</span>
+               <span style="font-size: 9pt; font-family: Calibri;-en-paragraph:true;">web</span>
+               <span style="font-size: 9pt; font-family: SimSun;-en-paragraph:true;">查杀工具， 看看有没有克隆或者隐藏的账号</span>
+              </div></li>
+             <li>
+              <div>
+               <span style="font-family: SimSun;">Win+R打开运行，输入“eventvwr.msc”，回车运行，打开“事件查看器”。</span>
+              </div></li>
+             <li>
+              <div>
+               <span style="font-family: SimSun;">检查异常端口、进程 1、检查端口连接情况，是否有远程连接、可疑连接。</span>
+              </div></li>
+             <ul>
+              <li>
+               <div>
+                <span style="font-family: SimSun;">a、netstat -ano 查看目前的网络连接，定位可疑的ESTABLISHED</span>
+               </div></li>
+              <li>
+               <div>
+                <span style="font-family: SimSun;">b、根据netstat 定位出的pid，再通过tasklist命令进行进程定位 tasklist | findstr “PID”</span>
+               </div></li>
+              <li>
+               <div>
+                <span style="font-family: SimSun;">如果觉得可疑ip，那么首先端口扫描下，用一些开源的情报平台搜索下..</span>
+               </div></li>
+             </ul>
+             <li>
+              <div>
+               <span style="font-family: SimSun;">查看开始自启菜单，计划任务，注册表，dll劫持....</span>
+              </div></li>
+            </ul>
+            <li>
+             <div>
+              <span style="font-family: SimSun;">linux</span>
+             </div></li>
+            <ul>
+             <li>
+              <div>
+               <span style="font-family: SimSun;">history</span>
+              </div></li>
+             <li>
+              <div>
+               <span style="font-family: SimSun;">常见的web,系统，waf日志</span>
+              </div></li>
+             <li>
+              <div>
+               <span style="font-family: SimSun;">进程注入(cymothoa)，计划任务的，自启目录,ssh记录账户密码，开源的rootkit</span>
+              </div></li>
+             <li>
+              <div>
+               <span style="font-family: SimSun;">定时计划任务</span>
+              </div></li>
+             <li>
+              <div>
+               <span style="font-family: SimSun;">#&nbsp;&nbsp;awk -F: '$3==0{print $1}' /etc/passwd&nbsp;&nbsp;&nbsp;#查看uid为0的特权账户</span>
+              </div></li>
+             <li>
+              <div>
+               <span style="font-size: 9pt; color: rgb(51, 51, 51); font-family: Monaco;">开启自启配置文件</span>
+              </div></li>
+             <li>
+              <div>
+               <span style="font-size: 9pt; color: rgb(51, 51, 51); font-family: Monaco;">/etc/rc.local</span>
+              </div></li>
+             <li>
+              <div>
+               <span style="font-size: 9pt; color: rgb(51, 51, 51); font-family: Monaco;">/etc/rc.d/rc[0-6].d</span>
+              </div></li>
+             <li>
+              <div>
+               <span style="font-family: SimSun;">...</span>
+              </div></li>
+            </ul>
+            <li>
+             <div>
+              <span style="font-size: 9pt;">如何查找挖矿木马</span>
+             </div></li>
+            <ul>
+             <li>
+              <div>
+               两个点:
+              </div></li>
+             <li>
+              <div>
+               cpu
+              </div></li>
+             <li>
+              <div>
+               可以的对外连接
+              </div></li>
+             <ul>
+              <li>
+               <div>
+                直接查看占cpu高得进程
+               </div></li>
+              <li>
+               <div>
+                在windows下查看某个运行程序（或进程）的命令行参数
+               </div></li>
+              <li>
+               <div>
+                使用下面的命令：
+               </div></li>
+              <li>
+               <div>
+                wmic process get caption,commandline /value
+               </div></li>
+              <li>
+               <div>
+                如果想查询某一个进程的命令行参数，使用下列方式：
+               </div></li>
+              <li>
+               <div>
+                wmic process where caption=”svchost.exe” get caption,commandline /value
+               </div></li>
+              <li>
+               <div>
+                这样就可以得到进程的可执行文件位置等信息。
+               </div></li>
+              <li>
+               <div>
+                #不过有些时候，木马删除了，他还是会不断得复制得，这个时候你可以用特定得软件（火绒剑）去分析，找他这个进程得父进程，或者找到进程所注入得服务，先把服务关了，再把进程杀了，
+               </div></li>
+             </ul>
+             <li>
+              <div>
+               linux:计划任务，开启启动项，服务等，一般可以查看到恶意脚本
+              </div></li>
+            </ul>
+           </ul>
+          </ul>
+          <li>
+           <div>
+            <span style="font-size: 9pt;">挖了哪些洞，怎么挖的</span>
+           </div></li>
+          <ul>
+           <li>
+            <div>
+             <span style="font-size: 9pt;">简单讲三个小漏洞</span>
+            </div></li>
+           <ul>
+            <li>
+             <div>
+              <span style="font-size: 9pt;">存储xss</span>
+             </div></li>
+            <ul>
+             <li>
+              <div>
+               <span style="font-size: 9pt;">挖掘 某vpn ，idc商的的过程</span>
+              </div></li>
+            </ul>
+            <li>
+             <div>
+              <span style="font-size: 9pt;">注入</span>
+             </div></li>
+            <ul>
+             <li>
+              <div>
+               <span style="font-size: 9pt;">表单提交，fuzzing上传图片的注入，地后台更换密码的谍对注入</span>
+              </div></li>
+             <li>
+              <div>
+               <span style="font-size: 9pt;">但是密码加密加盐了，创建了一个简单的账号密码，解密出加密加盐的规则，谍对注入修改管理账户密码</span>
+              </div></li>
+            </ul>
+           </ul>
+          </ul>
+          <li>
+           <div>
+            <span style="font-size: 9pt;">本人经典的渗透实战案例:</span>
+           </div></li>
+          <ul>
+           <li>
+            <div>
+             <span style="font-size: 9pt;">某个公安的网站被黑，查看日志等信息，没有看出什么结果，但是页面全部引流到一个商城系统，卖壮阳药的. 这个商城是TPSHOP1.3.3，后台指定ip登录，商城系统，而这个商城系统是存在 xss+后台getshell （添加物流插件的地方存在getshell）漏洞的，&nbsp;</span>
+            </div></li>
+           <ul>
+            <li>
+             <div>
+              <span style="font-size: 9pt;">构造方法:&nbsp; 触发xss的时候，后台页面先用ajax获取hash值，再去发起一个ajax请求，请求附带上一次请求的hash值，和插入的webshell代码，成功后就返回url地址</span>
+             </div></li>
+           </ul>
+           <li>
+            <div>
+             <span style="font-size: 9pt;">通过xss 获取到对方的某些客服的名字微信`</span>
+            </div></li>
+           <li>
+            <div>
+             <span style="font-size: 9pt;">提交工单，说（某个其他客服，私下找我，说叫我去去别的商城卖壮阳药，结果骗了我3000元）.管理员..&nbsp; (这个人本身就是诈骗团伙的成员吗)</span>
+            </div></li>
+           <li>
+            <div>
+             <span style="font-size: 9pt;">微信加我，我说我这边我和他的聊天证据以及录音， 这时候我利用出来的&nbsp;</span>
+             <span style="box-sizing: border-box; font-size: 9pt; font-family: &quot;Microsoft YaHei&quot;;">CVE-2018-20250&nbsp;</span> 
+             <span style="font-size: 9pt;">winarar 目录穿越的漏洞，结合免杀木马.从而直接获取到它的页面信息</span>
+            </div></li>
+           <ul>
+            <li>
+             <div>
+              <span style="font-size: 9pt;">钓鱼案例，通过其他apt报告分析总结出来的</span>
+             </div></li>
+            <li>
+             <div>
+              <span style="font-size: 9pt;">挖掘漏洞的案例，网上+自己经验和技术 找出来</span>
+             </div></li>
+           </ul>
+          </ul>
+          <li>
+           <div>
+            GPC是什么？开启了怎么绕过:
+           </div></li>
+          <ul>
+           <li>
+            <div>
+             <span style="font-size: 9pt; color: rgb(51, 51, 51); font-family: Monaco;">预防注入， ' &quot; 这些加上了转义&nbsp;&nbsp;</span>
+             <span style="font-size: 9pt;">addslshes()和stripslashes()</span>
+            </div></li>
+           <li>
+            <div>
+             <span style="font-size: 9pt; color: rgb(51, 51, 51); font-family: Monaco;">尝试宽字节注入， 数字注入，</span>
+            </div></li>
+           <li>
+            <div>
+             <span style="font-size: 9pt;">magic_quotes_gpc</span>
+            </div></li>
+           <li>
+            <div>
+             <span style="font-size: 9pt;">魔术引号自动过滤 GET/POST/COOKIE 但是不会处理$_SERVER(client-ip/referer注入) php&lt;5.4</span>
+            </div></li>
+           <li>
+            <div>
+             <span style="font-size: 9pt;">magic_quotes_runtime</span>
+            </div></li>
+           <li>
+            <div>
+             <span style="font-size: 9pt;">作用同上，受体数据库或者文件中获取的数据 php&lt;5.4&nbsp;</span>
+            </div></li>
+           <li>
+            <div>
+             <span style="font-size: 9pt;">参考文章:<a href="https://phyb0x.github.io/2018/12/06/php%E5%AE%A1%E8%AE%A1%E7%AC%94%E8%AE%B0/" style="font-size: 9pt;">https://phyb0x.github.io/2018/12/06/php%E5%AE%A1%E8%AE%A1%E7%AC%94%E8%AE%B0/</a></span>
+            </div></li>
+          </ul>
+          <li>
+           <div>
+            SQL注入写shell的条件，用法:
+           </div></li>
+          <ul>
+           <li>
+            <div>
+             <span style="font-size: 9pt;">要知道网站绝对路径，可以通过报错，phpinfo界面，404界面等一些方式知道</span>
+            </div></li>
+           <li>
+            <div>
+             <span style="font-size: 9pt;">gpc没有开启，开启了单引号被转义了，语句就不能正常执行</span>
+            </div></li>
+           <li>
+            <div>
+             <span style="font-size: 9pt;">要有file权限，默认情况下只有root有</span>
+            </div></li>
+           <li>
+            <div>
+             <span style="font-size: 9pt;">对目录要有写权限，一般image之类的存放突破的目录就有</span>
+            </div></li>
+          </ul>
+          <li>
+           <div>
+            Mysql一个@和两个@什么区别
+           </div></li>
+          <ul>
+           <li>
+            <div>
+             <span style="font-size: 9pt; font-family: Calibri;-en-paragraph:true;">@x 是 用户自定义的变量&nbsp;&nbsp;(User variables are written as @var_name)</span>
+            </div></li>
+           <li>
+            <div>
+             <span style="font-size: 9pt; font-family: Calibri;-en-paragraph:true;">@@x 是 global或session变量&nbsp;&nbsp;(@@global&nbsp;&nbsp;@@session )</span>
+            </div></li>
+          </ul>
+          <li>
+           <div>
+            <span style="font-family: Calibri;">如何隐藏自己的服务器以及ip</span>
+           </div></li>
+          <ul>
+           <li>
+            <div>
+             <span style="font-family: Calibri;">涉及敏感..暂时不说</span>
+            </div></li>
+          </ul>
+          <li>
+           <div>
+            <span style="font-family: Calibri;">英语介绍一下自己:</span>
+           </div></li>
+          <ul>
+           <li>
+            <div>
+             <span style="font-family: Calibri;">可以百度到就不说了</span>
+            </div></li>
+          </ul>
+          <li>
+           <div>
+            <span style="font-family: Calibri;">算法？了解过什么排序？</span>
+           </div></li>
+          <ul>
+           <li>
+            <div>
+             <span style="font-size: 9pt;">快速排序</span>
+            </div></li>
+           <li>
+            <div>
+             <span style="font-size: 9pt;">冒泡排序</span>
+            </div></li>
+          </ul>
+          <li>
+           <div>
+            <span style="font-size: 9pt;">sql注入分类，宽字节注入原理</span>
+           </div></li>
+          <ul>
+           <li>
+            <div>
+             <span style="font-size: 9pt;">宽字节原理</span>
+            </div></li>
+           <ul>
+            <li>
+             <div>
+              <span style="font-size: 9pt;">设置gbk编码的时候， %df 和引号会转成一个汉字，导致单引号逃逸出来，从而导致注入</span>
+             </div></li>
+           </ul>
+          </ul>
+          <li>
+           <div>
+            <span style="font-size: 9pt;">如果让你用工具进行代码审计一个cms的上传功能，你会关注哪些函数</span>
+           </div></li>
+          <ul>
+           <li>
+            <div>
+             <span style="font-size: 9pt;">...</span>
+            </div></li>
+          </ul>
+          <li>
+           <div>
+            <span style="font-size: 9pt;">php代码审计中命令执行你会关注哪些函数，代码执行你会关注哪些函数</span>
+           </div></li>
+          <ul>
+           <li>
+            <div>
+             <span style="font-size: 9pt;">system(),exec(),popen()</span>
+             <span style="background-color: rgb(255, 250, 165);font-size: 9pt;-evernote-highlight:true;">,</span>
+             <span style="font-size: 9pt;">passthru(),</span>
+             <span style="background-color: rgb(255, 250, 165);font-size: 9pt;-evernote-highlight:true;">s</span>
+             <span style="font-size: 9pt;">hell_exec(),``,proc_open(),pcntl_exec(),</span>
+             <span style="background-color: rgb(255, 250, 165);font-size: 9pt;-evernote-highlight:true;">curl_exec(),eval(),&nbsp;</span>
+             <span style="font-size: 9pt; font-family: Calibri;">：file_get_contents(),</span>
+            </div></li>
+          </ul>
+          <li>
+           <div>
+            <span style="font-size: 9pt;">内网渗透怎么获取服务器账号密码</span>
+           </div></li>
+          <ul>
+           <li>
+            <div>
+             <span style="font-size: 9pt;">window</span>
+            </div></li>
+           <ul>
+            <li>
+             <div>
+              <span style="font-size: 9pt;">导入hash</span>
+             </div></li>
+            <ul>
+             <li>
+              <div>
+               <span style="font-size: 9pt;">.mimikatz</span>
+              </div></li>
+             <li>
+              <div>
+               <span style="font-size: 9pt;">procudmp</span>
+              </div></li>
+             <li>
+              <div>
+               <span style="font-size: 9pt;">powershell</span>
+              </div></li>
+             <li>
+              <div>
+               <span style="font-size: 9pt;">LaZagne</span>
+              </div></li>
+             <li>
+              <div>
+               <span style="font-size: 9pt;">WebBrowserPassView</span>
+              </div></li>
+             <li>
+              <div>
+               ....
+              </div></li>
+            </ul>
+            <li>
+             <div>
+              <span style="font-size: 9pt;">搜集本机的信息</span>
+             </div></li>
+            <ul>
+             <li>
+              <div>
+               <span style="font-size: 9pt;">各种服务,mysql,myssql,ssh,ftp等账户密码</span>
+              </div></li>
+             <li>
+              <div>
+               <span style="font-size: 9pt;">键盘记录</span>
+              </div></li>
+            </ul>
+           </ul>
+           <li>
+            <div>
+             <span style="font-size: 9pt;">linux</span>
+            </div></li>
+           <ul>
+            <li>
+             <div>
+              <span style="font-size: 9pt;">.bash_history 历史密码</span>
+             </div></li>
+            <li>
+             <div>
+              <span style="font-size: 9pt;">mimipenguin&nbsp; 类似于window里mimikatz，获取登录凭证，账户密码</span>
+             </div></li>
+            <li>
+             <div>
+              <span style="font-size: 9pt;">ssh 私钥&nbsp;key，.pgp，.gpg，.p12，.pem，.pfx，.cer，.p7b，.asc</span>
+             </div></li>
+           </ul>
+          </ul>
+          <li>
+           <div>
+            <span style="font-size: 9pt;">你有一个webshell但是无法执行系统命令，无法上传，怎么进行内网渗透</span>
+           </div></li>
+          <ul>
+           <li>
+            <div>
+             ......
+            </div></li>
+          </ul>
+          <li>
+           <div>
+            <span style="font-size: 9pt;">我绕过Waf得层面</span>
+           </div></li>
+          <ul>
+           <li>
+            <div>
+             <span style="font-size: 9pt;">主流得手法</span>
+            </div></li>
+           <ul>
+            <li>
+             <div>
+              <span style="font-size: 9pt;">溢出</span>
+             </div></li>
+            <li>
+             <div>
+              <span style="font-size: 9pt;">分块传输</span>
+             </div></li>
+            <li>
+             <div>
+              <span style="font-size: 9pt;">GET/POST</span>
+             </div></li>
+            <li>
+             <div>
+              <span style="font-size: 9pt;">参数污染</span>
+             </div></li>
+            <li>
+             <div>
+              <span style="font-size: 9pt;">内联</span>
+             </div></li>
+            <li>
+             <div>
+              <span style="font-size: 9pt;">空字节</span>
+             </div></li>
+            <li>
+             <div>
+              不同的中间件支持的不同的编码
+             </div></li>
+            <ul>
+             <li>
+              <div>
+               <a href="https://www.t00ls.net/thread-53335-1-1.html">Waf从入门到Bypass</a>
+              </div></li>
+            </ul>
+           </ul>
+           <li>
+            <div>
+             <span style="font-size: 9pt;">首先，探测是什么waf,网上已经针对主流waf得探测了，探测出来先试试网上主流得payload</span>
+            </div></li>
+           <li>
+            <div>
+             <span style="font-size: 9pt;">不行的话，进一步探测，先看看是什么中间件，过滤哪些关键字字符，user-agent, 访问频率</span>
+            </div></li>
+           <ul>
+            <li>
+             <div>
+              <span style="font-size: 9pt;">中间件有特定得编码支持</span>
+             </div></li>
+            <ul>
+             <li>
+              <div>
+               <span style="font-size: 9pt;">IIS支持Unicode编码字符的解析，但是某些WAF却不一定具备这种能力。</span>
+              </div></li>
+             <li>
+              <div>
+               <br />
+              </div></li>
+            </ul>
+            <li>
+             <div>
+              <span style="font-size: 9pt;">黑名单过滤关键字符，还是使用正则匹配过滤等</span>
+             </div></li>
+            <ul>
+             <li>
+              <div>
+               <span style="font-size: 9pt;">黑名单过滤关键字符，那么尝试绕过，重点在于使用不同得函数，不同得关键字，不同得编码等</span>
+              </div></li>
+             <ul>
+              <li>
+               <div>
+                <span style="font-size: 9pt;">eg:&nbsp;union [all|distinct] select</span>
+               </div></li>
+             </ul>
+             <li>
+              <div>
+               <span style="font-size: 9pt;">正则匹配过滤，重点在于根据混淆</span>
+              </div></li>
+             <ul>
+              <li>
+               <div>
+                <span style="font-size: 9pt;">%0a</span>
+               </div></li>
+              <li>
+               <div>
+                <span style="font-size: 9pt;">%0b</span>
+               </div></li>
+              <li>
+               <div>
+                <span style="font-size: 9pt;">%0d</span>
+               </div></li>
+              <li>
+               <div>
+                <span style="font-size: 9pt;">%C0</span>
+               </div></li>
+              <li>
+               <div>
+                <span style="font-size: 9pt;">%20</span>
+               </div></li>
+              <li>
+               <div>
+                <span style="font-size: 9pt;">%09</span>
+               </div></li>
+              <li>
+               <div>
+                <span style="font-size: 9pt;">%0c</span>
+               </div></li>
+              <li>
+               <div>
+                <span style="font-size: 9pt;">%a0</span>
+               </div></li>
+             </ul>
+            </ul>
+            <li>
+             <div>
+              <span style="font-size: 9pt;">bypass safe dog:</span>
+             </div></li>
+            <ul>
+             <li>
+              <div>
+               <span style="font-size: 9pt;">union&nbsp;&nbsp;-- hex()%0a select 1,2,3,4,5,database/*!44544()*/,7,8 %23&nbsp;&nbsp;</span>
+              </div></li>
+             <li>
+              <div>
+               <span style="font-size: 9pt;">-- hex()%0a&nbsp; &nbsp; 是注释的意思，本来是注释后面的语句，到了安全狗这里就成为了绕过安全狗的语法</span>
+              </div></li>
+            </ul>
+           </ul>
+          </ul>
+          <li>
+           <div>
+            如果你是一个安全攻防负责人，如何做好安全架构，整理防御黑客攻击?（听到这个问题有点懵逼，这个问题太广了，思考了5-7分钟，想出了一些简答,）
+           </div></li>
+          <ul>
+           <li>
+            <div>
+             人员层面
+            </div></li>
+           <ul>
+            <li>
+             <div>
+              安全意识
+             </div></li>
+            <li>
+             <div>
+              PC定期杀毒，培训，上网行为管理....
+             </div></li>
+            <li>
+             <div>
+              开发人员的安全意识，代码审计等
+             </div></li>
+           </ul>
+           <li>
+            <div>
+             web层面
+            </div></li>
+           <ul>
+            <li>
+             <div>
+              之前说的渗透测试
+             </div></li>
+            <li>
+             <div>
+              信息存储，备份，传输等
+             </div></li>
+            <li>
+             <div>
+              日志，流量分析搜集
+             </div></li>
+            <li>
+             <div>
+              开源框架安全管理
+             </div></li>
+           </ul>
+           <li>
+            <div>
+             主机层面
+            </div></li>
+           <ul>
+            <li>
+             <div>
+              定期加固，渗透
+             </div></li>
+            <li>
+             <div>
+              ids这些
+             </div></li>
+            <li>
+             <div>
+              日志搜集
+             </div></li>
+           </ul>
+           <li>
+            <div>
+             数据安全
+            </div></li>
+           <ul>
+            <li>
+             <div>
+              数据分类别管理
+             </div></li>
+            <li>
+             <div>
+              定期备份，敏感数据怎么管理
+             </div></li>
+           </ul>
+           <li>
+            <div>
+             应急检测方面
+            </div></li>
+           <ul>
+            <li>
+             <div>
+              安全事件应急方案的制作
+             </div></li>
+           </ul>
+           <li>
+            <div>
+             架构
+            </div></li>
+           <ul>
+            <li>
+             <div>
+              安全域，边界防护，防火墙，waf,入侵检测等
+             </div></li>
+           </ul>
+           <li>
+            <div>
+             这个问题实在是有点广，我一个还没毕业的学生的见解可能有限，但是如果公司需要，我会尽量朝着这方面走
+            </div></li>
+          </ul>
+          <li>
+           <div>
+            如何bypass CDN
+           </div></li>
+          <ul>
+           <li>
+            <div>
+             1.全局ping
+            </div></li>
+           <li>
+            <div>
+             2.暴力子域查找子域IP
+            </div></li>
+           <li>
+            <div>
+             3.FOFA网站历史收录
+            </div></li>
+           <li>
+            <div>
+             4.历史DNS分析（很多网站可以搜索DNS分析）
+            </div></li>
+           <li>
+            <div>
+             5.smtp发送邮件，可以找到真正的ip
+            </div></li>
+           <li>
+            <div>
+             6.find phpinfo（）函数
+            </div></li>
+           <li>
+            <div>
+             7.ssl证书查找
+            </div></li>
+           <li>
+            <div>
+             8.favicon_哈希匹配
+            </div></li>
+           <li>
+            <div>
+             9.CloudFlare Bypass(前提是要用的是cloudflare cdn)
+            </div></li>
+           <li>
+            <div>
+             10.异常ping
+            </div></li>
+           <li>
+            <div>
+             11.使用旧域名
+            </div></li>
+          </ul>
+          <li>
+           <div>
+            会制作免杀吗?
+           </div></li>
+          <ul>
+           <li>
+            <div>
+             利用网上成熟的Shellcode制作简单免杀
+            </div></li>
+           <li>
+            <div>
+             dump hash, 内网转发等行为也能针对性的绕过检测
+            </div></li>
+          </ul>
+          <li>
+           <div>
+            <span style="font-size: 9pt;">继续总结....</span>
+           </div></li>
+         </ul>
+         <div>
+          <font style="font-size: 9pt;"><br /></font>
+         </div>
+        </div>
+        <div>
+         <br />
+        </div>
+        <div>
+         <br />
+        </div>
+        <div>
+         自己要问的问题:
+        </div>
+        <ul>
+         <li>
+          <div>
+           您公司做的类似于绿盟一样做的是安全产品 ，安全服务(等保，渗透)？
+          </div></li>
+         <li>
+          <div>
+           有没有岗位晋升机制，入职培训项目，员工培训提升项目？考证有没有报销？
+          </div></li>
+         <li>
+          <div>
+           五险一金、社保比例、饭补、餐补、交通补助？
+          </div></li>
+         <li>
+          <div>
+           应聘岗位具体职责和工作内容？会不会经常出差？
+          </div></li>
+         <li>
+          <div>
+           试用期多久？薪水多少？
+          </div></li>
+         <li>
+          <div>
+           工作时间，加班情况
+          </div></li>
+         <li>
+          <div>
+           <span style="font-weight: bold;">一周加几天班，上下班时间</span>
+          </div></li>
+         <li>
+          <div>
+           <span style="font-weight: bold;">公司队伍技术和产品这块有什么战略布局(一个公司如果没有核心的产品或者服务，迟早要被淘汰，记住! 光有钱没用)</span>
+          </div></li>
+         <li>
+          <div>
+           目前招进来的人主要擅长哪方面，多少人。
+          </div></li>
+         <li>
+          <div>
+           进了公司以后做什么？如果我到公司3个月，未来会做什么？
+          </div></li>
+         <li>
+          <div>
+           应聘的这个部门叫什么部门，有多少人？
+          </div></li>
+         <li>
+          <div>
+           问下该公司有哪些福利保障？
+          </div></li>
+         <li>
+          <div>
+           这个职位在贵公司的具体职责是什么？
+          </div></li>
+         <li>
+          <div>
+           您公司的晋升政策是什么？
+          </div></li>
+        </ul>
+        <div>
+         <br />
+        </div>
+        <div>
+         <br />
+        </div>
+        <div>
+         <br />
+        </div>
+        <div>
+         <br />
+        </div>
+        <div>
+         <br />
+        </div>
+        <div>
+         各大公司必问的问题:
+        </div>
+        <ul>
+         <li>
+          <div>
+           说说的你渗透流程
+          </div></li>
+         <ul>
+          <li>
+           <div>
+            ..太多
+           </div></li>
+         </ul>
+         <li>
+          <div>
+           你未来有什么职业规划
+          </div></li>
+         <ul>
+          <li>
+           <div>
+            未来3-5年以内我希望自己能够成为一个红队的Leader [ 注意，大部分面试官其实想知道的是不是你未来会不会长期呆在哪个公司,志向是否符合面试官公司的发展，而未必是真的想知道规划]
+           </div></li>
+         </ul>
+         <li>
+          <div>
+           挖掘过哪些漏洞
+          </div></li>
+         <ul>
+          <li>
+           <div>
+            挖掘漏洞是一回事，如何表达又是另外一回事，建议最好自己对朋友说一边，看看别人能否大致听懂白话文.
+           </div></li>
+         </ul>
+        </ul>
+        <div>
+         <br />
+        </div>
+        <div>
+         <br />
+        </div>
+        <div>
+         <br />
+        </div>
+        <div>
+         <br />
+        </div>
+        <div>
+         <br />
+        </div>
+        <div>
+         <br />
+        </div>
+        <div>
+         感谢名单：
+        </div>
+        <div>
+         <br />
+        </div>
+        <div>
+      
+          </div></li>
+        </ul>
+        <div>
+         <br />
+        </div>
+        <div>
+         <br />
+        </div>
+        <div>
+         <br />
+        </div>
+        <div>
+         总结以及招聘:
+        </div>
+       </div>
+       <div>
+        <br />
+       </div>
+       <div>
+        拿到的offer:
+       </div>
+       <ul>
+     
+        <li>
+         <div>
+          北京安x科技
+         </div></li>
+        <li>
+         <div>
+          深圳安x科技
+         </div></li>
+        <li>
+         <div>
+          广州南方xxxxx研究院
+         </div></li>
+        <li>
+         <div>
+          深圳深信xx科技
+         </div></li>
+        <li>
+         <div>
+          深圳网联xxxxx网络科技
+         </div></li>
+        <li>
+         <div>
+          江西奇安xxxxx
+         </div></li>
+        <li>
+         <div>
+          (若干小公司).....
+         </div></li>
+       </ul>
+       <div>
+        <br />
+       </div>
+       <div>
+        <br />
+       </div>
+       <div>
+        <br />
+       </div>
+     
+       </div>
+       <div>
+        <br />
+       </div>
+       <div>
+        <br />
+       </div>
+      </div>
+      <div>
+       参考文章:
+      </div>
+      <ol>
+       <li>
+        <div>
+         <a href="https://xz.aliyun.com/t/1255">一套实用的渗透测试岗位面试题</a>
+        </div></li>
+       <li>
+        <div>
+         <a href="https://www.freebuf.com/vuls/228750.html">渗透测试面试近期热门题</a>
+        </div></li>
+       <li>
+        <div>
+         <a href="https://www.t00ls.net/viewthread.php?tid=52944&amp;page=1&amp;authorid=12372">360奇安信绿盟深信服等公司秋招面试题总结与分享</a>
+        </div></li>
+      </ol>
+      <div>
+       <br />
+      </div>
+     </div>
+     <div>
+      <br />
+     </div></span></a> 
+  </div>
+ </body>
+</html>
